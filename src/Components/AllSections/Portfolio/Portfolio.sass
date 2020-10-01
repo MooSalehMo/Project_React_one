@@ -1,0 +1,54 @@
+@import '../../SassGlobal/Sass_Global'
+.Portfolio
+    padding: 50px 0 0 0
+    margin: 0
+    overflow: hidden 
+    .row 
+        h2 
+            color: $c888
+            text-transform: capitalize
+            font-weight: normal
+            margin-bottom: 30px
+        ul
+            overflow: hidden 
+            text-align: center
+            li 
+                color: $cfff
+                cursor: pointer
+                display: inline-block
+                border-radius: 3px
+                padding: 5px 30px
+                @include bg_rgba($c333, .6) 
+                margin: 0 10px
+                opacity: .7
+                &:hover , &.active, &:first-of-type
+                    opacity: 1
+                    @include transition 
+                @media screen and ( max-width: 767px )
+                    display: block 
+                    margin-bottom: 5px
+        .imageBox
+            padding: 0 
+            position: relative
+            .overlay 
+                @include overlay 
+                @include bg_rgba($c333, .6)  
+                @include transition
+                color: $cfff 
+                z-index: 2
+                display: flex
+                justify-content: center 
+                align-items: center
+                line-height: 100% 
+                opacity: 0
+                span 
+                    display: inline-block 
+                    padding: 10px 
+                    @include bg_rgba($c555, .8) 
+                    border-radius: 5px 
+                    cursor: pointer
+            &:hover > .overlay 
+                opacity: 1
+            img 
+                @include background_size
+

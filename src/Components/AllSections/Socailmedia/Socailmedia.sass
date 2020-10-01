@@ -1,0 +1,46 @@
+@import  '../../SassGlobal/Sass_Global'
+
+.row 
+    margin: 0 
+    padding: 0
+.Socailmedia  
+    .row
+        div 
+            padding: 20px
+            &.facebook
+                background-color: $cFacebook
+            &.twitter
+                background-color: $cTwitter
+            &.instagram
+                background-image: $bgInstagram
+            &:hover
+               opacity:  .8
+               @include transition
+            .row
+                color: $cfff
+                .parent_i 
+                    font-size: 30px
+                    text-align: center
+                    i 
+                        display: inline-block
+                        background-color: $cfff
+                        padding: 12px
+                        border-radius: 7px
+                        cursor: pointer
+                        &.fa-facebook 
+                            color: $cFacebook
+                            padding: 12px 18px
+                        &.fa-instagram 
+                            color: $cInstagram
+                            padding: 12px 13px
+                        &.fa-twitter 
+                            color: $cTwitter
+                .parent_p
+                    font-size: 17px 
+                    text-transform: capitalize
+                    p 
+                        margin: 0
+
+ 
+
+            

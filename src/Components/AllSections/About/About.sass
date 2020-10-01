@@ -1,0 +1,20 @@
+@import '../../SassGlobal/Sass_Global'
+
+.About
+    position: relative
+    overflow: hidden
+    background: url("/images/about/about-bg.jpg") no-repeat center fixed
+    @include background_size
+    .overlay 
+        @include overlay
+        @include bg_rgba($c000, .3)
+    .caption_about
+        padding-top: 70px
+        padding-bottom: 50px 
+        h2 
+            color: $cfff
+            font-weight: normal
+            font-size: 40px
+            margin-bottom: 20px
+        p 
+            color: $ceee

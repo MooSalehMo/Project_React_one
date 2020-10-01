@@ -1,0 +1,41 @@
+// start prefixer
+@mixin prefixer($property, $value, $prefixes: ()) 
+    @each $prefix in $prefixes
+        #{'-' + $prefix + '-' + $property}: $value
+  
+    $property: $value
+// end prefixer
+
+  // start overlay
+@mixin overlay 
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+// end overlay
+
+// start transition
+@mixin transition
+    -webkit-transition: all .5s ease-in-out
+    -moz-transition: all .5s ease-in-out
+    -ms-transition: all .5s ease-in-out
+    -o-transition: all .5s ease-in-out
+    transition: all .5s ease-in-out
+// end transition
+
+// start background_size
+@mixin background_size
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -ms-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+// end background_size
+
+// start backgroundcolor rgba 
+@mixin bg_rgba($v, $vv) 
+    background-color: rgba($v , $vv)
+// end backgroundcolor rgba 

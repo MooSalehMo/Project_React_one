@@ -1,0 +1,117 @@
+{
+    "Works": [{
+            "id": 1,
+            "icon_name": "icon fa fa-low-vision x2",
+            "title": "Title",
+            "pragraph": "Lorem ipsum is placeholder text commonly used in the graphic print and publishing industries for previewing layouts and visual mockups "
+        },
+        {
+            "id": 2,
+            "icon_name": "icon fa fa-cubes x2",
+            "title": "Title",
+            "pragraph": "Lorem ipsum is placeholder text commonly used in the graphic print and publishing industries for previewing layouts and visual mockups "
+        },
+        {
+            "id": 3,
+            "icon_name": "icon fa fa-user-circle-o x2",
+            "title": "Title",
+            "pragraph": "Lorem ipsum is placeholder text commonly used in the graphic print and publishing industries for previewing layouts and visual mockups "
+        }
+    ],
+    "Portfolio": [{
+            "id": 1,
+            "image": "/images/portfolio/portfolio-img1.jpg"
+        },
+        {
+            "id": 2,
+            "image": "/images/portfolio/portfolio-img2.jpg"
+        },
+        {
+            "id": 3,
+            "image": "/images/portfolio/portfolio-img3.jpg"
+        },
+        {
+            "id": 4,
+            "image": "/images/portfolio/portfolio-img4.jpg"
+        },
+        {
+            "id": 5,
+            "image": "/images/portfolio/portfolio-img5.jpg"
+        },
+        {
+            "id": 6,
+            "image": "/images/portfolio/portfolio-img6.jpg"
+        },
+        {
+            "id": 7,
+            "image": "/images/portfolio/portfolio-img7.jpg"
+        },
+        {
+            "id": 8,
+            "image": "/images/portfolio/portfolio-img8.jpg"
+        }
+    ],
+    "Ul_Portfolio": [{
+            "id": 1,
+            "Text": "All"
+        },
+        {
+            "id": 2,
+            "Text": "Two"
+        },
+        {
+            "id": 3,
+            "Text": "Three"
+        },
+        {
+            "id": 4,
+            "Text": "Four"
+        },
+        {
+            "id": 5,
+            "Text": "Five"
+        },
+        {
+            "id": 6,
+            "Text": "Six"
+        }
+    ],
+    "Profile": {
+        "Profile_langs": [
+            {
+                "lang": "JavaScript & React",
+                "pross": "70%"
+            },
+            {
+                "lang": "Sass & less",
+                "pross": "80%"
+            },
+            {
+                "lang": "Html & Css",
+                "pross": "85%"
+            }
+        ]
+    },
+    "Socailmedia": [{
+            "id": 1,
+            "class": "facebook",
+            "icon": "icon fa fa-facebook fa-x2",
+            "title": "follow me on",
+            "body": "socail facebook"
+        },
+        {
+            "id": 3,
+            "class": "instagram",
+            "icon": "icon fa fa-instagram fa-x2",
+            "title": "follow me on",
+            "body": "socail instagram"
+        },
+        {
+            "id": 2,
+            "class": "twitter",
+            "icon": "icon fa fa-twitter fa-x2 ",
+            "title": "Tweet me on",
+            "body": "socail twitter"
+        }
+    ]
+}

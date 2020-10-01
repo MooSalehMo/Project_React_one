@@ -1,0 +1,53 @@
+@import '../../SassGlobal/Sass_Global'
+.slider
+    height: 100vh
+    width: 100%
+    position: relative
+    overflow: hidden
+    background: url("/images/slider/slider.jpg") no-repeat center fixed
+    @include background_size
+    .overlay 
+        @include overlay
+        background-color: rgba($c000, .4)
+    .container
+        width: 70%
+        height: 100vh
+        position: relative 
+        align-item: center
+        display: flex
+        @media screen and ( max-width:  991px) 
+            width: 80%
+        .caption
+            margin: auto
+            text-align: center
+            @media screen and ( max-width:  991px) 
+                    text-align: $pull-left
+            h2
+                color: $ceee
+                text-transform: capitalize
+                font-weight: normal
+                font-size: 40px
+                margin-bottom: 20px
+                @media screen and ( max-width:  991px)
+                    font-size: 26px
+                    margin-bottom: 15px 
+            h4 
+                color: $cddd
+                font-size: 25px
+                text-transform: capitalize
+                @media screen and ( max-width:  991px)
+                    font-size: 22px
+            p
+                color: $cfff
+                @media screen and ( max-width:  991px)
+                    font-size: 15px
+            button
+                @include bg_rgba($c333, .7)
+                color: $cfff
+                width: 120px
+                text-transform: capitalize
+                font-size: 18px
+                @media screen and ( max-width:  991px)
+                    font-size: 16px
+                    width: 100px
+
